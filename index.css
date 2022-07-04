@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.sp-sakib {
+    color: orangered;
+}
+
+section {
+    display: flex;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+}
+
+.di-cls {
+    width: 50%;
+}
+
+.di-cls img {
+    width: 80%;
+    padding: 20px;
+}
+
+.click-me {
+    text-decoration: none;
+    background-color: rgb(23, 216, 39);
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(74, 10, 186), rgb(27, 79, 27));
+    color: white;
+    font-weight: 800;
+}
