@@ -11,7 +11,7 @@ h1 {
     color: orangered;
 }
 
-section {
+.flexible-content {
     display: flex;
 }
 
@@ -45,7 +45,7 @@ p {
     padding: 50px;
 }
 
-section {
+.flexible-content {
     display: flex;
     padding-top: 60px;
 }
@@ -57,4 +57,57 @@ section {
     padding-bottom: 20px;
     background-size: cover;
     background-position: center;
+}
+
+.card-th {
+    display: flex;
+}
+
+h3 {
+    color: maroon;
+}
+
+.new-card {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 80%;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.third-heading {
+    font-size: 9vh;
+    text-align: center;
+    font-weight: 800;
+    color: aliceblue;
+    letter-spacing: 10px;
+}
+
+.sec-third {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-image: url(images/back3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bord-one {
+    border-left: 6px solid red;
+}
+
+#bord-two {
+    border-left: 6px solid yellow;
+}
+
+.sec-fourth {
+    padding: 15px;
+    background-color: black;
+}
+
+.sec-fourth p {
+    text-align: center;
+    color: aqua;
 }
