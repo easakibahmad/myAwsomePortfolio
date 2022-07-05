@@ -44,3 +44,17 @@ p {
     background-position: right;
     padding: 50px;
 }
+
+section {
+    display: flex;
+    padding-top: 60px;
+}
+
+.secnd-sec {
+    background-image: url(images/back2.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+}
